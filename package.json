@@ -1,0 +1,21 @@
+{
+  "name": "velaris-server",
+  "version": "1.0.0",
+  "description": "Velaris OS Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "*",
+    "dotenv": "*",
+    "express": "*",
+    "mongoose": "*",
+    "node-cron": "*",
+    "puppeteer": "^24.34.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
