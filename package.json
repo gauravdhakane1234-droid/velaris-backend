@@ -1,7 +1,7 @@
 {
-  "name": "velaris-server",
-  "version": "1.0.0",
-  "description": "Velaris OS Backend",
+  "name": "nexastudio-server",
+  "version": "2.0.0",
+  "description": "NexaStudio – Premium AI-Powered Agency Backend",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -13,9 +13,12 @@
     "express": "*",
     "mongoose": "*",
     "node-cron": "*",
-    "puppeteer": "^24.34.0"
+    "nodemailer": "*",
+    "openai": "*",
+    "puppeteer": "^24.34.0",
+    "slugify": "*"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   }
 }
